@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Footer from './Footer'
 import Header from './Header'
 import Register from './Register'
 
@@ -7,6 +8,7 @@ const Login = () => {
 		<Container>
 			<Header />
 			<Register />
+			<Footer />
 		</Container>
 	)
 }
@@ -17,5 +19,7 @@ const Container = styled.div`
 	font-family: '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
 		Ubuntu, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 `
+
+
 
 export default Login

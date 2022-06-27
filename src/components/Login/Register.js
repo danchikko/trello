@@ -7,6 +7,7 @@ const Register = () => {
 			<form>
 				<Input placeholder='Укажите адрес электронной почты' />
                 <Input placeholder='Введите пароль' />
+				<Button>Войти</Button>
 			</form>
 		</Container>
 	)
@@ -15,7 +16,7 @@ const Register = () => {
 const Container = styled.div`
 	margin: 0 auto;
 	width: 400px;
-	height: 590.5px;
+	height: 760px;
 	border-radius: 3px;
 	box-shadow: rgb(0 0 0 / 10%) 0 0 10px;
 	padding: 25px 40px;
@@ -29,7 +30,7 @@ const MainTitle = styled.h1`
 	letter-spacing: -0.01rem;
 	line-height: 28px;
 	margin-top: 10px;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 `
 
 const Input = styled.input`
@@ -42,7 +43,26 @@ const Input = styled.input`
 		border-color 0.2s ease-in-out 0s;
 	transition: background-color 0.2s ease-in-out 0s,
 		border-color 0.2s ease-in-out 0s;
-    width: 100%;
+    width: 95%;
+	margin: 10px 0;
+	padding-left: 15px;
+	outline: none;
+	color: gray;
+	&:focus {
+		border: 2px solid blue;
+	}
+`
+
+const Button = styled.button`
+	width: 100%;
+	height: 38px;
+	background: #5AAC44;
+	color: white;
+	border: none;
+	font-size: 13.5px;
+	font-weight: 700;
+	border-radius: 4px;
+	margin: 10px 0;
 `
 
 export default Register
