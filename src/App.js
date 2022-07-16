@@ -1,13 +1,14 @@
-// import Login from "./components/Login";
 
-import StartRegister from "./pages/starting";
+// import StartRegister from "./pages/starting";
+
+import Login from "./pages/login/Login";
 
 // import MainPage from "./components/MainPage";
 
 function App() {
   return (
     <div>
-      <StartRegister />
+      <Login />
     </div>
   );
 }

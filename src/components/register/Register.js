@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import google from '../../aseets/image/google.png'
 
 const Register = () => {
 	return (
@@ -9,6 +10,8 @@ const Register = () => {
                 <Input placeholder='Введите пароль' />
 				<Button>Войти</Button>
 			</form>
+			<p>ИЛИ</p>
+			<SignButton><img src={google} alt="logo Google" />Войти через Google</SignButton>
 		</Container>
 	)
 }
@@ -16,11 +19,14 @@ const Register = () => {
 const Container = styled.div`
 	margin: 0 auto;
 	width: 400px;
-	height: 760px;
+	height: 500px;
 	border-radius: 3px;
 	box-shadow: rgb(0 0 0 / 10%) 0 0 10px;
 	padding: 25px 40px;
 	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 `
 
 const MainTitle = styled.h1`
@@ -63,6 +69,25 @@ const Button = styled.button`
 	font-weight: 700;
 	border-radius: 4px;
 	margin: 10px 0;
+`
+
+const SignButton = styled.button`
+	width: 100%;
+	height: 36px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #505f79;
+	font-weight: 700;
+	border: none;
+	box-shadow: 1px 1px 2px ;
+	cursor: pointer;
+	& img {
+		width: 20px;
+		height: 20px;
+		margin-right: 15px;
+	}
 `
 
 export default Register

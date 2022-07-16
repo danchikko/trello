@@ -1,7 +1,8 @@
 import styled from 'styled-components'
-import Footer from './Footer'
-import LoginHeader from './Header'
-import Register from './Register'
+import Footer from '../../components/register/Footer';
+import LoginHeader from '../../components/register/Header';
+import Register from '../../components/register/Register';
+
 
 const Login = () => {
 	return (
@@ -22,4 +23,4 @@ const Container = styled.div`
 
 
 
-export default Login
+export default Login;

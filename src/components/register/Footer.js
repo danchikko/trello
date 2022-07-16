@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import left from '../../aseets/imags/left.svg'
-import right from '../../aseets/imags/right.svg'
+import left from '../../aseets/image/left.svg'
+import right from '../../aseets/image/right.svg'
 
 const Footer = () => {
 	return (
@@ -26,7 +26,7 @@ const LeftImg = styled.img`
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	z-index: auto;
+	/* z-index: auto; */
 `
 
 const RightImg = styled.img`
@@ -35,7 +35,7 @@ const RightImg = styled.img`
 	position: fixed;
 	right: 0;
 	bottom: 0;
-	z-index: auto;
+	/* z-index: auto; */
 `
 
 export default Footer

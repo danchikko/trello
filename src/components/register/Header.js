@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import logo from "../../aseets/imags/logo.svg"
+import logo from "../../aseets/image/logo.svg"
 const LoginHeader = () => {
     return (
         <Container>
