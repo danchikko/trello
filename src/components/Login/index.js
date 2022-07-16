@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 import Footer from './Footer'
-import Header from './Header'
+import LoginHeader from './Header'
 import Register from './Register'
 
 const Login = () => {
 	return (
 		<Container>
-			<Header />
+			<LoginHeader />
 			<Register />
 			<Footer />
 		</Container>

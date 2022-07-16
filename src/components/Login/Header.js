@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import logo from "../../aseets/imags/logo.svg"
-const Header = () => {
+const LoginHeader = () => {
     return (
         <Container>
             <Logo src={logo} alt="logo" />
@@ -19,4 +19,4 @@ const Logo = styled.img`
     margin-bottom: 40px;
 `
 
-export default Header
+export default LoginHeader
