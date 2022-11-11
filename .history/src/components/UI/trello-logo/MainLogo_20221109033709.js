@@ -1,0 +1,5 @@
+const MainLogo = () => {
+    return (
+        <div
+    )
+}
